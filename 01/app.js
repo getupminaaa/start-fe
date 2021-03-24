@@ -111,11 +111,5 @@ console.log(typeof 1); //number
 console.log(typeof {}); //object
 console.log(typeof []); //object
 
-
-
 */
-
-
-
-
 
