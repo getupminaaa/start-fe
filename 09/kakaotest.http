@@ -1,0 +1,7 @@
+# apiKey => 5bcff1716b4d4edfc0b0a4429803960c
+
+GET https://dapi.kakao.com/v2/search/web?query=kakao
+Content-Type: application/json
+{
+    "Authorization": "KakaoAK f9258ebf4846861df22419895be4a51d"
+}
