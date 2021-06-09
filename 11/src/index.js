@@ -1,14 +1,12 @@
-import css from './todos.css';
+import './todos.css';
+
 import { render } from './html-render';
 import formInput from './form-input';
+import { loadData } from './data-manager';
+
 const $result = document.querySelector('#result');
 
-const todos = [
-  {
-    text: 'hihi',
-    isDone: false,
-  },
-];
+const todos = loadData();
 
 $result.addEventListener('click', (event) => {
   console.log(event.target.className);
