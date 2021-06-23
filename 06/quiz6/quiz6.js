@@ -11,7 +11,8 @@ function multiplication(input) {
 }
 
 $btn.addEventListener('click', (event) => {
-  if ($num.value === '') {
+  const input = parseInt(document.getElementById('num').value);
+  if (Number.isNaN(input)) {
     alert('숫자 입력 해주세요!');
   } else {
     $result.innerHTML = multiplication($num.value);
