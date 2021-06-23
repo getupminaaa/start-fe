@@ -1,4 +1,4 @@
+import random from './random.js';
 import avg from './avg.js';
-import ran from './random.js';
-document.getElementById('avg').innerHTML = avg([1, 10, '!', 5]);
-document.getElementById('random').innerHTML = ran(100, 20);
+document.getElementById('avg').innerHTML = avg([1, 10, 9, 5]);
+document.getElementById('random').innerHTML = random(100, 20);

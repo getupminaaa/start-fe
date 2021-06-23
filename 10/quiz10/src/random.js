@@ -1,4 +1,4 @@
-function ran(min, max) {
+function random(min, max) {
   let result = 0;
   if (!isNaN(min) && max === undefined) {
     max = min;
@@ -10,4 +10,4 @@ function ran(min, max) {
   result = Math.floor(Math.random() * (max - min)) + min;
   return result;
 }
-export default ran;
+export default random;
