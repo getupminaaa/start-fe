@@ -24,7 +24,6 @@ function bugClick() {
     clearInterval(timerFunc);
   }
   $point.textContent = parseInt($point.textContent) + 1;
-  $box.event;
   replaceRandom();
   clearInterval(timerFunc);
   timerFunc = setInterval(function () {
@@ -58,6 +57,6 @@ timerFunc = setInterval(() => {
 $box.addEventListener('click', () => {
   boxClick();
 });
-$bug.addEventListener('click', () => {
+$bug.addEventListener('click', (event) => {
   bugClick();
 });
